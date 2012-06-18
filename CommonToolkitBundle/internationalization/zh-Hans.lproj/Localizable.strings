@@ -1,0 +1,10 @@
+/* 
+  Localizable.strings
+  CommonToolkitBundle
+
+  Created by  on 12-6-18.
+  Copyright (c) 2012年 richitec. All rights reserved.
+*/
+
+// network exception
+"default http request did failed toast" = "网络异常，请稍后重试";

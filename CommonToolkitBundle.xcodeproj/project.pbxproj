@@ -1,0 +1,295 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DCD6AED6158EEFC500CBBBDB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DCD6AED4158EEFC500CBBBDB /* InfoPlist.strings */; };
+		DCD6AEDD158EEFE700CBBBDB /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = DCD6AEDB158EEFE700CBBBDB /* Localizable.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DCD6AEC0158EEED400CBBBDB /* CommonToolkitBundle.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CommonToolkitBundle.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCD6AEC5158EEED400CBBBDB /* CommonToolkitBundle-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "CommonToolkitBundle-Info.plist"; sourceTree = "<group>"; };
+		DCD6AEC9158EEED400CBBBDB /* CommonToolkitBundle-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CommonToolkitBundle-Prefix.pch"; sourceTree = "<group>"; };
+		DCD6AED5158EEFC500CBBBDB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = internationalization/en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DCD6AED7158EEFD600CBBBDB /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "internationalization/zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		DCD6AED9158EEFDF00CBBBDB /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "internationalization/zh-Hant.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		DCD6AEDC158EEFE700CBBBDB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = internationalization/en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		DCD6AEDE158EEFF300CBBBDB /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "internationalization/zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		DCD6AEE0158EEFFE00CBBBDB /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "internationalization/zh-Hant.lproj/Localizable.strings"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DCD6AEBD158EEED400CBBBDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DCD6AEA1158EEE7800CBBBDB = {
+			isa = PBXGroup;
+			children = (
+				DCD6AEC3158EEED400CBBBDB /* CommonToolkitBundle */,
+				DCD6AEAE158EEE7800CBBBDB /* Frameworks */,
+				DCD6AEAD158EEE7800CBBBDB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DCD6AEAD158EEE7800CBBBDB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DCD6AEC0158EEED400CBBBDB /* CommonToolkitBundle.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DCD6AEAE158EEE7800CBBBDB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DCD6AEC3158EEED400CBBBDB /* CommonToolkitBundle */ = {
+			isa = PBXGroup;
+			children = (
+				DCD6AEE2158EF03600CBBBDB /* Resources */,
+				DCD6AEC4158EEED400CBBBDB /* Supporting Files */,
+			);
+			path = CommonToolkitBundle;
+			sourceTree = "<group>";
+		};
+		DCD6AEC4158EEED400CBBBDB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DCD6AEC5158EEED400CBBBDB /* CommonToolkitBundle-Info.plist */,
+				DCD6AED4158EEFC500CBBBDB /* InfoPlist.strings */,
+				DCD6AEC9158EEED400CBBBDB /* CommonToolkitBundle-Prefix.pch */,
+				DCD6AEDB158EEFE700CBBBDB /* Localizable.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DCD6AEE2158EF03600CBBBDB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DCD6AEE3158EF03600CBBBDB /* Images */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		DCD6AEE3158EF03600CBBBDB /* Images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DCD6AEBF158EEED400CBBBDB /* CommonToolkitBundle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCD6AECA158EEED400CBBBDB /* Build configuration list for PBXNativeTarget "CommonToolkitBundle" */;
+			buildPhases = (
+				DCD6AEBC158EEED400CBBBDB /* Sources */,
+				DCD6AEBD158EEED400CBBBDB /* Frameworks */,
+				DCD6AEBE158EEED400CBBBDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CommonToolkitBundle;
+			productName = CommonToolkitBundle;
+			productReference = DCD6AEC0158EEED400CBBBDB /* CommonToolkitBundle.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DCD6AEA3158EEE7800CBBBDB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = richitec;
+			};
+			buildConfigurationList = DCD6AEA6158EEE7800CBBBDB /* Build configuration list for PBXProject "CommonToolkitBundle" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				"zh-Hans",
+				"zh-Hant",
+			);
+			mainGroup = DCD6AEA1158EEE7800CBBBDB;
+			productRefGroup = DCD6AEAD158EEE7800CBBBDB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DCD6AEBF158EEED400CBBBDB /* CommonToolkitBundle */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DCD6AEBE158EEED400CBBBDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCD6AED6158EEFC500CBBBDB /* InfoPlist.strings in Resources */,
+				DCD6AEDD158EEFE700CBBBDB /* Localizable.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DCD6AEBC158EEED400CBBBDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DCD6AED4158EEFC500CBBBDB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCD6AED5158EEFC500CBBBDB /* en */,
+				DCD6AED7158EEFD600CBBBDB /* zh-Hans */,
+				DCD6AED9158EEFDF00CBBBDB /* zh-Hant */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DCD6AEDB158EEFE700CBBBDB /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCD6AEDC158EEFE700CBBBDB /* en */,
+				DCD6AEDE158EEFF300CBBBDB /* zh-Hans */,
+				DCD6AEE0158EEFFE00CBBBDB /* zh-Hant */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DCD6AEB7158EEE7800CBBBDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DCD6AEB8158EEE7800CBBBDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DCD6AECB158EEED400CBBBDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				DEAD_CODE_STRIPPING = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CommonToolkitBundle/CommonToolkitBundle-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				INFOPLIST_FILE = "CommonToolkitBundle/CommonToolkitBundle-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				LINK_WITH_STANDARD_LIBRARIES = NO;
+				MACOSX_DEPLOYMENT_TARGET = "";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		DCD6AECC158EEED400CBBBDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				DEAD_CODE_STRIPPING = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CommonToolkitBundle/CommonToolkitBundle-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				INFOPLIST_FILE = "CommonToolkitBundle/CommonToolkitBundle-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				LINK_WITH_STANDARD_LIBRARIES = NO;
+				MACOSX_DEPLOYMENT_TARGET = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DCD6AEA6158EEE7800CBBBDB /* Build configuration list for PBXProject "CommonToolkitBundle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCD6AEB7158EEE7800CBBBDB /* Debug */,
+				DCD6AEB8158EEE7800CBBBDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCD6AECA158EEED400CBBBDB /* Build configuration list for PBXNativeTarget "CommonToolkitBundle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCD6AECB158EEED400CBBBDB /* Debug */,
+				DCD6AECC158EEED400CBBBDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DCD6AEA3158EEE7800CBBBDB /* Project object */;
+}
