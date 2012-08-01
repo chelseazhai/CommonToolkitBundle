@@ -7,11 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DC5C7B0315C9204500DD3027 /* blackArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = DC5C7AFB15C9204500DD3027 /* blackArrow.png */; };
+		DC5C7B0415C9204500DD3027 /* blackArrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DC5C7AFC15C9204500DD3027 /* blackArrow@2x.png */; };
+		DC5C7B0515C9204500DD3027 /* blueArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = DC5C7AFD15C9204500DD3027 /* blueArrow.png */; };
+		DC5C7B0615C9204500DD3027 /* blueArrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DC5C7AFE15C9204500DD3027 /* blueArrow@2x.png */; };
+		DC5C7B0715C9204500DD3027 /* grayArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = DC5C7AFF15C9204500DD3027 /* grayArrow.png */; };
+		DC5C7B0815C9204500DD3027 /* grayArrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DC5C7B0015C9204500DD3027 /* grayArrow@2x.png */; };
+		DC5C7B0915C9204500DD3027 /* whiteArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = DC5C7B0115C9204500DD3027 /* whiteArrow.png */; };
+		DC5C7B0A15C9204500DD3027 /* whiteArrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DC5C7B0215C9204500DD3027 /* whiteArrow@2x.png */; };
 		DCD6AED6158EEFC500CBBBDB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DCD6AED4158EEFC500CBBBDB /* InfoPlist.strings */; };
 		DCD6AEDD158EEFE700CBBBDB /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = DCD6AEDB158EEFE700CBBBDB /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DC5C7AFB15C9204500DD3027 /* blackArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blackArrow.png; sourceTree = "<group>"; };
+		DC5C7AFC15C9204500DD3027 /* blackArrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blackArrow@2x.png"; sourceTree = "<group>"; };
+		DC5C7AFD15C9204500DD3027 /* blueArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blueArrow.png; sourceTree = "<group>"; };
+		DC5C7AFE15C9204500DD3027 /* blueArrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blueArrow@2x.png"; sourceTree = "<group>"; };
+		DC5C7AFF15C9204500DD3027 /* grayArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grayArrow.png; sourceTree = "<group>"; };
+		DC5C7B0015C9204500DD3027 /* grayArrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "grayArrow@2x.png"; sourceTree = "<group>"; };
+		DC5C7B0115C9204500DD3027 /* whiteArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whiteArrow.png; sourceTree = "<group>"; };
+		DC5C7B0215C9204500DD3027 /* whiteArrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "whiteArrow@2x.png"; sourceTree = "<group>"; };
 		DCD6AEC0158EEED400CBBBDB /* CommonToolkitBundle.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CommonToolkitBundle.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCD6AEC5158EEED400CBBBDB /* CommonToolkitBundle-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "CommonToolkitBundle-Info.plist"; sourceTree = "<group>"; };
 		DCD6AEC9158EEED400CBBBDB /* CommonToolkitBundle-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CommonToolkitBundle-Prefix.pch"; sourceTree = "<group>"; };
@@ -34,6 +50,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DC5C7AFA15C9204500DD3027 /* EGOTableViewPullRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				DC5C7AFB15C9204500DD3027 /* blackArrow.png */,
+				DC5C7AFC15C9204500DD3027 /* blackArrow@2x.png */,
+				DC5C7AFD15C9204500DD3027 /* blueArrow.png */,
+				DC5C7AFE15C9204500DD3027 /* blueArrow@2x.png */,
+				DC5C7AFF15C9204500DD3027 /* grayArrow.png */,
+				DC5C7B0015C9204500DD3027 /* grayArrow@2x.png */,
+				DC5C7B0115C9204500DD3027 /* whiteArrow.png */,
+				DC5C7B0215C9204500DD3027 /* whiteArrow@2x.png */,
+			);
+			path = EGOTableViewPullRefresh;
+			sourceTree = "<group>";
+		};
 		DCD6AEA1158EEE7800CBBBDB = {
 			isa = PBXGroup;
 			children = (
@@ -89,6 +120,7 @@
 		DCD6AEE3158EF03600CBBBDB /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				DC5C7AFA15C9204500DD3027 /* EGOTableViewPullRefresh */,
 			);
 			path = Images;
 			sourceTree = "<group>";
@@ -148,6 +180,14 @@
 			files = (
 				DCD6AED6158EEFC500CBBBDB /* InfoPlist.strings in Resources */,
 				DCD6AEDD158EEFE700CBBBDB /* Localizable.strings in Resources */,
+				DC5C7B0315C9204500DD3027 /* blackArrow.png in Resources */,
+				DC5C7B0415C9204500DD3027 /* blackArrow@2x.png in Resources */,
+				DC5C7B0515C9204500DD3027 /* blueArrow.png in Resources */,
+				DC5C7B0615C9204500DD3027 /* blueArrow@2x.png in Resources */,
+				DC5C7B0715C9204500DD3027 /* grayArrow.png in Resources */,
+				DC5C7B0815C9204500DD3027 /* grayArrow@2x.png in Resources */,
+				DC5C7B0915C9204500DD3027 /* whiteArrow.png in Resources */,
+				DC5C7B0A15C9204500DD3027 /* whiteArrow@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,6 +328,7 @@
 				DCD6AECC158EEED400CBBBDB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
