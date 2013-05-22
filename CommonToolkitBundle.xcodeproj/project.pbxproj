@@ -101,8 +101,8 @@
 		DCD6AEC4158EEED400CBBBDB /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				DCD6AEC9158EEED400CBBBDB /* CommonToolkitBundle-Prefix.pch */,
 				DCD6AEC5158EEED400CBBBDB /* CommonToolkitBundle-Info.plist */,
+				DCD6AEC9158EEED400CBBBDB /* CommonToolkitBundle-Prefix.pch */,
 				DC630149174CA92800C132C2 /* InfoPlist.strings */,
 				DC63014B174CA92800C132C2 /* Localizable.strings */,
 			);
