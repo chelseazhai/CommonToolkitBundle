@@ -16,7 +16,7 @@
 		DC5C7B0915C9204500DD3027 /* whiteArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = DC5C7B0115C9204500DD3027 /* whiteArrow.png */; };
 		DC5C7B0A15C9204500DD3027 /* whiteArrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DC5C7B0215C9204500DD3027 /* whiteArrow@2x.png */; };
 		DC63014D174CA92800C132C2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DC630149174CA92800C132C2 /* InfoPlist.strings */; };
-		DC63014E174CA92800C132C2 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = DC63014B174CA92800C132C2 /* Localizable.strings */; };
+		DC80B0611773F92C009BA163 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = DC80B05F1773F92C009BA163 /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,11 +29,11 @@
 		DC5C7B0115C9204500DD3027 /* whiteArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whiteArrow.png; sourceTree = "<group>"; };
 		DC5C7B0215C9204500DD3027 /* whiteArrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "whiteArrow@2x.png"; sourceTree = "<group>"; };
 		DC63014A174CA92800C132C2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Resources/Internationalization/en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		DC63014C174CA92800C132C2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Resources/Internationalization/en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		DC63014F174CA93000C132C2 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "Resources/Internationalization/zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
-		DC630150174CA93000C132C2 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "Resources/Internationalization/zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		DC630151174CA93800C132C2 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "Resources/Internationalization/zh-Hant.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
-		DC630152174CA93800C132C2 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "Resources/Internationalization/zh-Hant.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		DC80B0601773F92C009BA163 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Internationalization/en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		DC80B0621773F932009BA163 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "Internationalization/zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		DC80B0631773F939009BA163 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "Internationalization/zh-Hant.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		DCD6AEC0158EEED400CBBBDB /* CommonToolkitBundle.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CommonToolkitBundle.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCD6AEC5158EEED400CBBBDB /* CommonToolkitBundle-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "CommonToolkitBundle-Info.plist"; sourceTree = "<group>"; };
 		DCD6AEC9158EEED400CBBBDB /* CommonToolkitBundle-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CommonToolkitBundle-Prefix.pch"; sourceTree = "<group>"; };
@@ -63,6 +63,14 @@
 				DC5C7B0215C9204500DD3027 /* whiteArrow@2x.png */,
 			);
 			path = EGOTableViewPullRefresh;
+			sourceTree = "<group>";
+		};
+		DC80B05E1773F8F6009BA163 /* Internationalization */ = {
+			isa = PBXGroup;
+			children = (
+				DC80B05F1773F92C009BA163 /* Localizable.strings */,
+			);
+			name = Internationalization;
 			sourceTree = "<group>";
 		};
 		DCD6AEA1158EEE7800CBBBDB = {
@@ -104,7 +112,6 @@
 				DCD6AEC5158EEED400CBBBDB /* CommonToolkitBundle-Info.plist */,
 				DCD6AEC9158EEED400CBBBDB /* CommonToolkitBundle-Prefix.pch */,
 				DC630149174CA92800C132C2 /* InfoPlist.strings */,
-				DC63014B174CA92800C132C2 /* Localizable.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -113,6 +120,7 @@
 			isa = PBXGroup;
 			children = (
 				DCD6AEE3158EF03600CBBBDB /* Images */,
+				DC80B05E1773F8F6009BA163 /* Internationalization */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -187,7 +195,7 @@
 				DC5C7B0915C9204500DD3027 /* whiteArrow.png in Resources */,
 				DC5C7B0A15C9204500DD3027 /* whiteArrow@2x.png in Resources */,
 				DC63014D174CA92800C132C2 /* InfoPlist.strings in Resources */,
-				DC63014E174CA92800C132C2 /* Localizable.strings in Resources */,
+				DC80B0611773F92C009BA163 /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,12 +222,12 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		DC63014B174CA92800C132C2 /* Localizable.strings */ = {
+		DC80B05F1773F92C009BA163 /* Localizable.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				DC63014C174CA92800C132C2 /* en */,
-				DC630150174CA93000C132C2 /* zh-Hans */,
-				DC630152174CA93800C132C2 /* zh-Hant */,
+				DC80B0601773F92C009BA163 /* en */,
+				DC80B0621773F932009BA163 /* zh-Hans */,
+				DC80B0631773F939009BA163 /* zh-Hant */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";
@@ -250,7 +258,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -271,7 +279,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
